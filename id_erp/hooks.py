@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 from __future__ import unicode_literals
 
-app_name = "print_shop"
+app_name = "id_erp"
 app_title = "Print Shop"
 app_publisher = "Your Company"
 app_description = "Digital printing management"
