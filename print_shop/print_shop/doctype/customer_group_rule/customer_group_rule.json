@@ -1,8 +1,7 @@
 {
     "doctype": "DocType",
     "name": "Customer Group Rule",
-    "module": "ID ERP",
-
+    "module": "Print Shop",
     "custom": 1,
     "fields": [
         {"label": "Customer Group", "fieldname": "customer_group", "fieldtype": "Link", "options": "Customer Group"},

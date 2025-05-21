@@ -1,10 +1,9 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='id_erp',
+    name='print_shop',
     version='0.1.0',
-    packages=['id_erp'],
-
+    packages=find_packages(),
     include_package_data=True,
     install_requires=['frappe'],
 )
