@@ -1,0 +1,11 @@
+{
+    "doctype": "DocType",
+    "name": "Customer Group Rule",
+    "module": "ID ERP",
+    "custom": 1,
+    "fields": [
+        {"label": "Customer Group", "fieldname": "customer_group", "fieldtype": "Link", "options": "Customer Group"},
+        {"label": "Minimo Quantita (m2)", "fieldname": "min_qty_m2", "fieldtype": "Float"},
+        {"label": "Minimo Valore", "fieldname": "min_value", "fieldtype": "Currency"}
+    ]
+}
