@@ -1,8 +1,7 @@
 {
     "doctype": "DocType",
     "name": "Optional Item",
-    "module": "ID ERP",
-
+    "module": "Print Shop",
     "custom": 1,
     "fields": [
         {"label": "Descrizione", "fieldname": "descrizione", "fieldtype": "Data"},

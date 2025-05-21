@@ -1,0 +1,10 @@
+{
+    "doctype": "DocType",
+    "name": "Work Milestone",
+    "module": "Print Shop",
+    "custom": 1,
+    "fields": [
+        {"label": "Sales Order", "fieldname": "sales_order", "fieldtype": "Link", "options": "Sales Order"},
+        {"label": "Status", "fieldname": "status", "fieldtype": "Select", "options": "Prestampa\nStampa\nAllestimento\nConsegnato"}
+    ]
+}

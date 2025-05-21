@@ -3,11 +3,10 @@ from frappe import _
 def get_data():
     return [
         {
-            "module_name": "ID ERP",
+            "module_name": "Print Shop",
             "color": "#589494",
             "icon": "octicon octicon-clippy",
             "type": "module",
-            "label": _("ID ERP")
-
+            "label": _("Print Shop")
         }
     ]
