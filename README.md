@@ -1,4 +1,9 @@
-# Print Shop
+# id-erp
+
+This repository contains a prototype Frappe app named **Print Shop** used to manage digital printing products and workflows.
+
+The `print_shop` directory includes a minimal implementation of DocTypes and pricing logic.
+
 
 Frappe/ERPNext app to manage digital printing sales and production.
 
@@ -15,3 +20,4 @@ Frappe/ERPNext app to manage digital printing sales and production.
 
 1. Clone this repository inside your Frappe bench `apps` folder.
 2. Run `bench --site your_site_name install-app print_shop`.
+
