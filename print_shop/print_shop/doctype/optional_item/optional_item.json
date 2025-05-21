@@ -1,0 +1,12 @@
+{
+    "doctype": "DocType",
+    "name": "Optional Item",
+    "module": "Print Shop",
+    "custom": 1,
+    "fields": [
+        {"label": "Descrizione", "fieldname": "descrizione", "fieldtype": "Data"},
+        {"label": "Costo Fisso", "fieldname": "costo_fisso", "fieldtype": "Currency"},
+        {"label": "Costo Variabile", "fieldname": "costo_variabile", "fieldtype": "Currency"},
+        {"label": "Minimo", "fieldname": "minimo", "fieldtype": "Currency"}
+    ]
+}
