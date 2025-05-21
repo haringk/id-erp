@@ -6,6 +6,21 @@ PRODUCT_TYPE_PIECE = "Pezzo"
 PRODUCT_TYPE_ABBIGLIAMENTO = "Abbigliamento"
 
 
+def copy_dimensions_from_quotation(doc, method):
+    """Ensure dimensional fields are carried over from the originating Quotation."""
+    for item in doc.items:
+        if (getattr(item, "prevdoc_doctype", None) == "Quotation" and
+                getattr(item, "prevdoc_detail_docname", None)):
+            try:
+                q_item = frappe.get_doc("Quotation Item", item.prevdoc_detail_docname)
+            except frappe.DoesNotExistError:
+                continue
+            for field in ("base", "altezza", "lunghezza"):
+                if not getattr(item, field, None) and hasattr(q_item, field):
+                    setattr(item, field, getattr(q_item, field))
+
+
+
 def validate_sales_order(doc, method):
     for item in doc.items:
         config = frappe.get_doc("Product Configuration", item.item_code)

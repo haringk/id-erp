@@ -16,6 +16,10 @@ doctype_js = {
 doc_events = {
     "Sales Order": {
         "validate": [
+            "print_shop.controllers.pricing.copy_dimensions_from_quotation",
+            "print_shop.controllers.pricing.validate_sales_order",
+        ]
+
             "print_shop.controllers.pricing.validate_sales_order",
             "print_shop.controllers.sync.copy_dimensions_from_quotation",
         ],
