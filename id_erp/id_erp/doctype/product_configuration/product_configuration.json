@@ -1,7 +1,8 @@
 {
     "doctype": "DocType",
     "name": "Product Configuration",
-    "module": "Print Shop",
+    "module": "ID ERP",
+
     "custom": 1,
     "fields": [
         {"label": "Base (cm)", "fieldname": "base", "fieldtype": "Float"},

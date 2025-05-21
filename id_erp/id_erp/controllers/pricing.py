@@ -63,11 +63,3 @@ def enforce_minimums(customer_group, item):
     if rule.min_value and item.base_price < rule.min_value:
         item.base_price = rule.min_value
 
-
-def create_work_milestone(doc, method):
-    """Create an initial Work Milestone when the Sales Order is submitted."""
-    frappe.get_doc({
-        "doctype": "Work Milestone",
-        "sales_order": doc.name,
-        "status": "Prestampa",
-    }).insert(ignore_permissions=True)

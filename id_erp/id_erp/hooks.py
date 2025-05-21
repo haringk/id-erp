@@ -2,7 +2,8 @@
 from __future__ import unicode_literals
 
 app_name = "id_erp"
-app_title = "Print Shop"
+app_title = "ID ERP"
+
 app_publisher = "Your Company"
 app_description = "Digital printing management"
 app_email = "info@example.com"
@@ -15,7 +16,7 @@ doctype_js = {
 
 doc_events = {
     "Sales Order": {
-        "validate": "print_shop.controllers.pricing.validate_sales_order",
-        "on_submit": "print_shop.controllers.pricing.create_work_milestone",
+        "validate": "id_erp.controllers.pricing.validate_sales_order",
+
     },
 }
