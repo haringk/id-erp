@@ -1,6 +1,5 @@
 # Autore: idstudio AI
 # Email: ai@idstudio.org
-
 from frappe import _
 
 def get_data():
@@ -11,6 +10,5 @@ def get_data():
             "icon": "octicon octicon-clippy",
             "type": "module",
             "label": _("ID ERP")
-
         }
     ]

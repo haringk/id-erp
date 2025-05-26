@@ -1,0 +1,13 @@
+{
+    "doctype": "DocType",
+    "name": "Product Configuration",
+    "module": "ID ERP",
+    "custom": 1,
+    "fields": [
+        {"label": "Base (cm)", "fieldname": "base", "fieldtype": "Float"},
+        {"label": "Altezza (cm)", "fieldname": "altezza", "fieldtype": "Float"},
+        {"label": "Lunghezza (cm)", "fieldname": "lunghezza", "fieldtype": "Float"},
+        {"label": "Tipo Prodotto", "fieldname": "tipo_prodotto", "fieldtype": "Select", "options": "Mq\nMl\nPezzo\nAbbigliamento"},
+        {"label": "Prezzo Base", "fieldname": "prezzo_base", "fieldtype": "Currency"}
+    ]
+}
