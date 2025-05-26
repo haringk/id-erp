@@ -9,6 +9,7 @@ def get_data():
             "color": "#589494",
             "icon": "octicon octicon-clippy",
             "type": "module",
-            "label": _("ID ERP")
+            "label": _("Print Shop")
+
         }
     ]

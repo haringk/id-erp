@@ -1,11 +1,11 @@
-# Autore: idstudio AI
-# Email: ai@idstudio.org
+
 from setuptools import setup, find_packages
 
 setup(
     name='id_erp',
     version='0.1.0',
-    packages=find_packages(),
+    packages=['id_erp'],
     include_package_data=True,
-    install_requires=['frappe>=14'],
+    install_requires=['frappe'],
+
 )
