@@ -1,14 +1,32 @@
-# id-erp
+# ID ERP
 
-This repository contains a prototype Frappe app named **ID ERP** used to manage digital printing products and workflows.
+**ID ERP** is a minimal Frappe/ERPNext application to manage digital printing workflows.
 
-The `id_erp` directory includes the Frappe application.
+## Installation
 
-## Quick Start
+From your bench directory run:
 
 ```bash
-bench get-app id_erp /path/to/id-erp
+bench get-app id_erp https://github.com/haringk/id-erp.git
 bench --site yoursite install-app id_erp
 ```
 
-See `id_erp/README.md` for details.
+## Update
+
+```bash
+bench --site yoursite reinstall --force
+```
+
+## Troubleshooting
+
+Ensure your bench environment is running ERPNext 14 and that `id_erp` exists in the `apps` directory.
+
+## Uninstall
+
+```bash
+bench --site yoursite uninstall-app id_erp
+```
+
+## License
+
+MIT
