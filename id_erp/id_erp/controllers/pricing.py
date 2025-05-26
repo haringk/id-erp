@@ -1,5 +1,6 @@
 # Autore: idstudio AI
 # Email: ai@idstudio.org
+
 import frappe
 
 PRODUCT_TYPE_MQ = "Mq"

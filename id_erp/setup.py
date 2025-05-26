@@ -1,5 +1,8 @@
+# Autore: idstudio AI
+# Email: ai@idstudio.org
 
-from setuptools import setup, find_packages
+from setuptools import setup
+
 
 setup(
     name='id_erp',
