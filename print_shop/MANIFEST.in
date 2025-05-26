@@ -1,3 +1,0 @@
-recursive-include print_shop *.json
-recursive-include print_shop *.js
-recursive-include print_shop *.py
