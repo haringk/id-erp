@@ -1,6 +1,5 @@
-# id-erp
+# id_erp
 
-This repository contains a prototype Frappe app named **ID ERP** used to manage digital printing products and workflows.
+This repository contains the **id_erp** Frappe application for managing digital printing workflows. The app resides in the `id_erp` directory and can be installed on ERPNext 14.
 
-
-The `id_erp` directory includes a minimal implementation of DocTypes and pricing logic.
+See `id_erp/README.md` for detailed instructions.
