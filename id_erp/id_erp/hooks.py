@@ -10,18 +10,13 @@ app_description = "Digital printing management"
 app_email = "info@example.com"
 app_license = "MIT"
 
+# Includes
 doctype_js = {
     "Sales Order": "public/js/sales_order.js",
 }
 
 doc_events = {
     "Sales Order": {
-        "validate": [
-            "id_erp.controllers.pricing.validate_sales_order",
-            "id_erp.controllers.copy_items.copy_from_quotation",
-        ]
-    },
-    "Delivery Note": {
-        "validate": "id_erp.controllers.copy_items.copy_from_sales_order"
+        "validate": "id_erp.controllers.pricing.validate_sales_order",
     },
 }

@@ -1,2 +1,3 @@
-include *.md
-recursive-include print_shop *.json *.js *.py
+recursive-include id_erp *.json
+recursive-include id_erp *.js
+recursive-include id_erp *.py
