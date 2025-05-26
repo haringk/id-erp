@@ -1,0 +1,3 @@
+recursive-include id_erp *.json
+recursive-include id_erp *.js
+recursive-include id_erp *.py
